@@ -1,0 +1,15 @@
+# Fichier de test
+# Les lignes de commentaires commencent par #
+procedure principale()
+#TEST REP
+
+b = 6;
+r = 2;
+si (b == 5)
+    b = b-1;
+sinon
+    b = b+1;
+finsi
+
+finproc
+# Commentaire Final
